@@ -1,3 +1,3 @@
-# haskell 7.6.3
+# haskell 8.0.2
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/haskell-7.6.3.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/haskell-8.0.2.svg?branch=master)
