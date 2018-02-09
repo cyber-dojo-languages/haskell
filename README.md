@@ -1,3 +1,5 @@
-# haskell 8.0.2
+# Haskell
 
-![Build Status](https://travis-ci.org/cyber-dojo-languages/haskell-8.0.2.svg?branch=master)
+![Build Status](https://travis-ci.org/cyber-dojo-languages/haskell.svg?branch=master)
+
+Version=8.0.2
