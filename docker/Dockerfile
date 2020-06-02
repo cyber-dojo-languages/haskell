@@ -15,4 +15,5 @@ ENV SHA=${COMMIT_SHA}
 
 LABEL maintainer=jon@jaggersoft.com
 
+RUN apt-get update
 RUN apt-get install --yes haskell-platform
