@@ -1,5 +1,2 @@
-FROM cyberdojofoundation/ubuntu-build-essential-18-04:a6578e6
+FROM haskell:slim-bullseye
 LABEL maintainer=jon@jaggersoft.com
-
-RUN apt-get update
-RUN apt-get install --yes haskell-platform
