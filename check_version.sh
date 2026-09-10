@@ -7,7 +7,7 @@ readonly JSON=`cat ${MY_DIR}/docker/image_name.json`
 [[ ${JSON} =~ ${REGEX} ]]
 readonly IMAGE_NAME="${BASH_REMATCH[1]}"
 
-readonly EXPECTED=9.10.3
+readonly EXPECTED=9.14
 readonly ACTUAL=$(docker run --rm -i ${IMAGE_NAME} sh -c 'runhaskell --version')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then
